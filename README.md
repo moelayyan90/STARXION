@@ -1,5 +1,7 @@
 # STARXION
 
+[![STARXION benchmark](https://github.com/moelayyan90/STARXION/actions/workflows/benchmark.yml/badge.svg)](https://github.com/moelayyan90/STARXION/actions/workflows/benchmark.yml)
+
 **Trust every computation beyond Earth.**
 
 STARXION is an experimental AI-compute integrity layer for detecting silent numerical corruption during neural-network inference before a corrupted result is accepted.
@@ -16,6 +18,12 @@ The current proof of concept wraps Transformer-style linear operations with ligh
 - 0 false positives across 300 clean checks
 
 The raw result from the reference run is included in [`starxion_results.json`](starxion_results.json).
+
+## Read first
+
+- [One-page overview](docs/ONE_PAGER.md)
+- [Technical note](docs/TECHNICAL_NOTE.md)
+- [Benchmark report](starxion_report.html)
 
 ## Run it
 
